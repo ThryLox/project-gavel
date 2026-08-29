@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Env / secrets
+.env
+.env.*
+
+# Editor/OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ephemeral gavel.py run output (regenerated every run, not source content)
+gavel_compliance_report.md
+gavel_report_*.md
